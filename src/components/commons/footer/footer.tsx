@@ -24,8 +24,8 @@ const Footer: FC = () => {
           <div>
             <Logo />
             <p className="text-gray-400 mb-6">
-              L'excellence de l'artisanat français en menuiserie depuis 1985.
-              Notre atelier réalise des créations sur mesure et des
+              L&apos;excellence de l&apos;artisanat français en menuiserie
+              depuis 1985. Notre atelier réalise des créations sur mesure et des
               restaurations de qualité pour particuliers et professionnels.
             </p>
             <div className="flex space-x-4">
@@ -80,7 +80,7 @@ const Footer: FC = () => {
                 href="#"
                 className="text-gray-500 hover:text-amber-400 text-sm"
               >
-                Conditions d'utilisation
+                Conditions d&apos;utilisation
               </a>
               <a
                 href="#"

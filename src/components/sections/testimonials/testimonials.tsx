@@ -83,7 +83,7 @@ const Testimonials: FC = () => {
                 }`}
               >
                 <p className="text-lg md:text-xl text-gray-700 italic mb-8">
-                  "{testimonials[activeIndex].content}"
+                  &quot;{testimonials[activeIndex].content}&quot;
                 </p>
 
                 <div className="flex items-center">

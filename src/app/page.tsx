@@ -6,7 +6,6 @@ import Portfolio from "@/components/sections/portfolio/portfolio";
 import Services from "@/components/sections/services/services";
 import Testimonials from "@/components/sections/testimonials/testimonials";
 import Workshop from "@/components/sections/workshop/workshop";
-import Image from "next/image";
 
 export default function Home() {
   return (

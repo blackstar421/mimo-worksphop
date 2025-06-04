@@ -72,8 +72,9 @@ const Contact: FC = () => {
           </h2>
           <div className="w-24 h-1 bg-amber-700 mx-auto mb-6"></div>
           <p className="max-w-2xl mx-auto text-lg text-gray-600">
-            Une question, un projet ou besoin d'un devis ? N'hésitez pas à nous
-            contacter, nous vous répondrons dans les meilleurs délais.
+            Une question, un projet ou besoin d&apos;un devis ? N&apos;hésitez
+            pas à nous contacter, nous vous répondrons dans les meilleurs
+            délais.
           </p>
         </div>
 
@@ -243,7 +244,7 @@ const Contact: FC = () => {
             <div className="bg-gray-50 rounded-lg overflow-hidden shadow-md h-96">
               <div className="w-full h-full bg-gray-200 flex items-center justify-center">
                 <p className="text-gray-500">
-                  Carte de localisation de l'atelier
+                  Carte de localisation de l&apos;atelier
                 </p>
                 {/* Placeholder for actual map integration */}
               </div>

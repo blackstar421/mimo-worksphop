@@ -49,10 +49,11 @@ const About: FC = () => {
               fonctionnalité.
             </p>
             <p className="text-lg text-gray-700 mb-8">
-              Aujourd'hui, c'est Thomas Martin qui dirige l'atelier, perpétuant
-              l'héritage familial avec la même passion et exigence. Notre équipe
-              de quatre artisans qualifiés travaille avec minutie pour réaliser
-              vos projets les plus ambitieux.
+              Aujourd&apos;hui, c&apos;est Thomas Martin qui dirige
+              l&apos;atelier, perpétuant l&apos;héritage familial avec la même
+              passion et exigence. Notre équipe de quatre artisans qualifiés
+              travaille avec minutie pour réaliser vos projets les plus
+              ambitieux.
             </p>
 
             <div className="space-y-3 mb-8">

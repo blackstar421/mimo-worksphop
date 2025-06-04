@@ -46,7 +46,7 @@ const Workshop: React.FC = () => {
     <section id="workshop" className="py-20 bg-wood-800 text-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2>Visitez Notre Atelier</h2>
+          <h2 className="!text-white">Visitez Notre Atelier</h2>
           <div className="w-24 h-1 bg-amber-500 mx-auto mb-6"></div>
           <p className="max-w-2xl mx-auto text-lg text-gray-300">
             Découvrez les coulisses de notre atelier, où tradition et innovation
@@ -57,20 +57,20 @@ const Workshop: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h3 className="text-2xl font-serif font-bold mb-6">
-              Un espace dédié à l'excellence artisanale
+              Un espace dédié à l&apos;excellence artisanale
             </h3>
             <p className="text-gray-300 mb-6">
               Notre atelier de 200m² situé à Fontainebleau réunit tous les
-              équipements nécessaires à la réalisation de pièces d'exception.
-              Des outils traditionnels aux machines modernes, nous disposons des
-              moyens techniques pour répondre à tous vos projets, des plus
-              simples aux plus complexes.
+              équipements nécessaires à la réalisation de pièces
+              d&apos;exception. Des outils traditionnels aux machines modernes,
+              nous disposons des moyens techniques pour répondre à tous vos
+              projets, des plus simples aux plus complexes.
             </p>
             <p className="text-gray-300 mb-8">
               Chaque poste de travail est organisé pour garantir un flux de
-              production optimal, de la préparation du bois brut jusqu'aux
-              finitions les plus délicates. Notre équipe d'artisans qualifiés
-              partage cet espace avec passion et rigueur.
+              production optimal, de la préparation du bois brut jusqu&apos;aux
+              finitions les plus délicates. Notre équipe d&apos;artisans
+              qualifiés partage cet espace avec passion et rigueur.
             </p>
 
             <div className="hidden lg:block">{displayVideoThumbnail()}</div>
@@ -113,7 +113,7 @@ const Workshop: React.FC = () => {
             </button>
             <div className="aspect-w-16 aspect-h-9 bg-black">
               <div className="w-full h-full flex items-center justify-center text-white">
-                <p>Vidéo de présentation de l'atelier</p>
+                <p>Vidéo de présentation de l&apos;atelier</p>
                 {/* Placeholder for actual video embed */}
               </div>
             </div>

@@ -10,7 +10,7 @@ const Blog: FC = () => {
     <section id="blog" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2>Journal de l'Atelier</h2>
+          <h2>Journal de l&apos;Atelier</h2>
           <div className="w-24 h-1 bg-amber-700 mx-auto mb-6"></div>
           <p className="max-w-2xl mx-auto text-lg text-gray-600">
             Découvrez nos articles, conseils et actualités autour du bois et de
@@ -51,7 +51,8 @@ const Blog: FC = () => {
                   href="#"
                   className="inline-flex items-center text-amber-700 hover:text-amber-800 font-medium"
                 >
-                  Lire l'article <BsArrowRight size={16} className="ml-1" />
+                  Lire l&apos;article{" "}
+                  <BsArrowRight size={16} className="ml-1" />
                 </Link>
               </div>
             </article>
